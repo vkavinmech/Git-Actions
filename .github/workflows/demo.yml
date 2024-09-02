@@ -1,0 +1,10 @@
+name: Run a text file format
+on: push
+
+jobs:
+  Demo:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: print hello
+      run: echo "hello world"
