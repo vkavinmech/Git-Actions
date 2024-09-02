@@ -1,0 +1,19 @@
+name: Execute a py Script
+on: push
+
+jobs:
+  Hello:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clone repo
+      uses: actions/checkout@v4
+
+
+    - name: Setup python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.9'
+
+    - name: Execute a py script
+      run: python python1.py
