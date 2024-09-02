@@ -2,7 +2,7 @@ name: Execute a py Script
 on: push
 
 jobs:
-  Hello:
+  Demo:
     runs-on: ubuntu-latest
 
     steps:
