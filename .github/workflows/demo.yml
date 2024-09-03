@@ -9,7 +9,7 @@ jobs:
     - name: Clone repo
       uses: actions/checkout@v4
 
-    - name: Run Cypress Test
+    - name: Execute Cypress Test
       uses: cypress-io/github-action@v6
       with:
          command: npx cypress run
