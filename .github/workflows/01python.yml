@@ -15,5 +15,5 @@ jobs:
       with:
         python-version: '3.9'
 
-    - name: Execute a py script
+    - name: Execute a python script
       run: python Reverse.py
