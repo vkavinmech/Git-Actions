@@ -3,7 +3,7 @@ describe('Navigate to the url', () => {
     cy.visit('https://www.facebook.com/');
     cy.wait(3000);
     cy.get("#email").type("demotest@gmail.com");
-    cy.get("#passContainer").type("demotest");
+    cy.get("#pass").type("demotest");
     cy.get("#u_0_5_lz").click()
     cy.get("._9ay7").should('have.value',"The password that you've entered is incorrect. ")
     });
