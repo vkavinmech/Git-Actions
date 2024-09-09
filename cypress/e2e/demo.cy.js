@@ -3,5 +3,6 @@ describe('Navigate to the url', () => {
   cy.visit('https://www.google.com/');
   cy.wait(3000);
   cy.get('#APjFqb').type("Automation");
+  cy.title().should('have.text', 'Google');
       });
    }); 
