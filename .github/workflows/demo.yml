@@ -1,4 +1,4 @@
-name: Run a cypress Script
+name: Execute a cypress Script
 on: push
 
 jobs:
